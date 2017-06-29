@@ -15,14 +15,15 @@ namespace LAB_3
             {
                 int S, C, N;
 
+                Console.WriteLine("Learn your squares and cubes!");
                 Console.WriteLine("Enter an Integer: ");
                 N = int.Parse(Console.ReadLine());
                 S = N * N;
                 C = N * N * N;
 
-                Console.WriteLine(S + " Your number squared");
+                Console.WriteLine(S + " = squared");
 
-                Console.WriteLine(C + " Your number cubed");
+                Console.WriteLine(C + " = cubed");
             }
             while (Continue() == true);
 
